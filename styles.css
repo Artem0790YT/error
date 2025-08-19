@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* отключить прокрутку */
+}
+
+.fullscreen-photo {
+    width: 100vw; /* ширина окна просмотра */
+    height: 100vh; /* высота окна просмотра */
+    object-fit: cover; /* масштабировать изображение без искажения */
+}
